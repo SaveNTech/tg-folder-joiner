@@ -1,0 +1,14 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.claude/settings.local.json
+
+# личные секреты/данные — не пушим
+config.json
+links.txt
+links.json
+state.json
+state.json.tmp
+*.session
+*.session-journal

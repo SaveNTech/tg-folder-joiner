@@ -1,0 +1,5 @@
+# одна ссылка на строку, строки с # игнорируются
+https://t.me/some_public_chat
+@another_public_chat
+https://t.me/+AbCdEfGhIjKlMnOp
+https://t.me/joinchat/QrStUvWxYz123456

@@ -1,0 +1,9 @@
+services:
+  joiner:
+    build: .
+    container_name: chat_joiner
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    restart: "no"

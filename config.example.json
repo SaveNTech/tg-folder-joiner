@@ -1,0 +1,28 @@
+{
+  "api_id": 123456,
+  "api_hash": "your_api_hash_from_my_telegram_org",
+  "session_name": "joiner_session",
+  "links_file": "links.txt",
+  "links_format": "txt",
+  "state_file": "state.json",
+  "folders": [
+    {"title": "Папка 1", "count": 200},
+    {"title": "Папка 2", "count": 200},
+    {"title": "Папка 3", "count": 200},
+    {"title": "Папка 4", "count": 200},
+    {"title": "Папка 5", "count": 200}
+  ],
+  "folder_flush_every": 5,
+  "folder_flush_interval_sec": 15,
+  "throttle": {
+    "delay_start": 4.0,
+    "delay_min": 1.5,
+    "delay_max": 300.0,
+    "success_decay": 0.92,
+    "flood_backoff_mult": 2.5,
+    "jitter": 0.2,
+    "cooldown_after_floods": 3,
+    "cooldown_window": 15,
+    "cooldown_seconds": 1200.0
+  }
+}
